@@ -3,18 +3,20 @@
   text-align: center;
 }
 
-
-.card {
+.offer h2{
+  margin-bottom:10px;
+}
+.card-offer {
   width: 400px;
-  height: 500px;
   box-shadow: 0 0 2px black;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 10px 10px;
+  background-color: white;
 }
 
-.card h2{
+.card-offer h2{
   margin-top: 10px;
 }
 
@@ -24,6 +26,10 @@
 
 }
 
+.price p{
+  margin:0;
+}
+
 .bbox h6{
   background-color: #EDA0D4;
   color:white;
@@ -31,8 +37,7 @@
 
 .price {
   color:#EDA0D4;
-  height: 131px;
-  border-bottom: solid #009DCC;
+  height: 105px;
 }
 
 .price h2{
@@ -43,3 +48,126 @@
   display: flex;
   justify-content: space-between;
 }
+
+.sms{
+  padding: 10px 0px;
+  background-color: rgb(243,243,243);
+  color:#EDA0D4;
+}
+
+.sms p {
+  margin: 0;
+  margin:auto;
+}
+
+.data-details{
+  padding: 10px 0px;
+  color:#EDA0D4;
+}
+
+.destination{
+  padding: 10px 0px;
+  background-color: rgb(243,243,243);
+  color:#EDA0D4;
+}
+
+
+@media (max-width: 530px) {
+  .container{
+    width: 100%;
+    padding: 0px;
+  }
+
+  .banner{
+    margin-bottom: 10px;
+  }
+
+  .offer h2{
+  margin-bottom:15px;
+  }
+
+  .card-offer {
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 5px;
+  }
+
+  .card-offer h2{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .card-offer p{
+    font-size:10px;
+  }
+
+  .bbox h6{
+    background-color: #EDA0D4;
+    color:white;
+    font-size: 10px;
+  }
+
+  .price {
+    color:#EDA0D4;
+    height: 68px;
+  }
+
+  .price h2{
+    color:#EDA0D4;
+
+  }
+
+  .price h1{
+    font-size: 20px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sms{
+    padding: 10px 0px;
+    background-color: rgb(243,243,243);
+    color:#EDA0D4;
+  }
+
+  .sms p {
+    margin: 0;
+    margin:auto;
+    font-size: 8px;
+  }
+
+  .data-details{
+    padding: 10px 0px;
+    color:#EDA0D4;
+  }
+
+  .data-details p {
+    font-size: 8px;
+  }
+
+  .destination{
+    padding: 10px 0px;
+    background-color: rgb(243,243,243);
+    color:#EDA0D4;
+  }
+
+  .destination p {
+    font-size: 8px;
+  }
+
+  .category {
+    padding:3px;
+    margin-bottom: 3px;
+  }
+
+  .category p {
+    margin: 0px;
+  }
+
+}
+
